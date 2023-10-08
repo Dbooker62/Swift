@@ -1,3 +1,4 @@
+
 import Foundation
 
 // struct for Burger
@@ -51,6 +52,8 @@ func createMenu() -> [MenuItem] {
 
 // display the menu
 func displayMenu(menu: [MenuItem]) {
+    print("Welcome to Bill's Burger Bistro")
+    print("-------------------------------")
     for item in menu {
         print("Category: \(item.category)")
         for burger in item.items {
